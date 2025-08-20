@@ -1,5 +1,5 @@
+<img width="1536" height="1024" alt="Image" src="https://github.com/user-attachments/assets/0aa82a48-f372-45c9-ba39-e5fc5a6955ed" />
 
-![다운로드](https://user-images.githubusercontent.com/77565332/131991397-3aeeabd8-9320-44c8-9c8d-04ec2301927e.png)
 
 ---
 # 맹탐정: 개 입마개 인식 AI IoT 시스템 (Dog Muzzle Detection System)
@@ -17,6 +17,8 @@
 ---
 
 ## 2. 주요 기술 및 아키텍처
+
+![다운로드](https://user-images.githubusercontent.com/77565332/131991397-3aeeabd8-9320-44c8-9c8d-04ec2301927e.png)
 
 ```plaintext
 [IoT 카메라]
