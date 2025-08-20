@@ -1,5 +1,3 @@
-<img width="1536" height="1024" alt="Image" src="https://github.com/user-attachments/assets/0aa82a48-f372-45c9-ba39-e5fc5a6955ed" />
-
 
 ---
 # 맹탐정: 맹견탐지 지능형 CCTV(Dog Muzzle Detection System)
@@ -16,10 +14,16 @@
 
 ![다운로드](https://user-images.githubusercontent.com/77565332/131991397-3aeeabd8-9320-44c8-9c8d-04ec2301927e.png)
 
-- 라즈베리파이 카메라에서 실시간 영상을 송출받아  
-- YOLO 및 CNN 기반 AI 모델이 개 객체, 품종, 입마개 착용 여부를 판별  
-- 탐지 결과(이미지, 품종, 입마개 여부, 시간 등)는 서버와 DB에 저장  
+- 라즈베리파이 카메라에서 실시간 영상을 송출받아 YOLO 및 CNN 기반 AI 모델이 개 객체, 품종, 입마개 착용 여부를 판별  
+- 탐지 결과(품종, 입마개 여부, 이미지)는 서버와 DB에 저장  
 - 웹페이지에서 실시간/이력 확인 및 관리자 기능 제공
+
+<br>
+
+
+<img width="1536" height="1024" alt="Image" src="https://github.com/user-attachments/assets/0aa82a48-f372-45c9-ba39-e5fc5a6955ed" />
+
+### 주요 기술
 
 - **IoT 디바이스**: Raspberry Pi Camera, AWS Kinesis Video Stream  
 - **AI 딥러닝 서버**: Python(Flask), CNN, YOLO
@@ -38,11 +42,11 @@
 
 ### 2) 웹 서비스 및 관리자 기능  
 - 웹 페이지에서 실시간 탐지 결과 조회  
-- 관리자/사용자 권한 구분 
 - 탐지 기록 검색/필터, 실시간 경고/알림
 
 
-## 5. 실행 및 사용법(로컬 기준)
+
+## 4. 실행 및 사용법(로컬 기준)
 
 1. **Flask 서버 실행**  
    - `python app.py` (기본 포트 5001)
